@@ -1,5 +1,33 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --head1: 2.5rem;
+    --head2: 1.5rem;
+    --head3: 1rem;
+    --head4: 1rem
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--head1);
+}h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--head2);
+}h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--head3);
+    font-weight: 1000;
+    padding-bottom: 10px;
+}h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--head4);
+    font-weight: 1000;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
 div{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 img{
     width: 20px;
@@ -12,17 +40,38 @@ img{
 }
 .sidebar{
     grid-area: 1/1/7/2;
+    background-color: rgb(8, 170, 239);
+    color: white;
 }
 .header{
     grid-area: 1/2/2/7;
+    background-color: rgb(255, 254, 254);
 }
 .cards-wrapper{
     display: grid;
-    border: 2px solid blue;
-    grid-area: 2/2/7/7
+    background-color: rgb(219, 233, 247);
+    grid-area: 2/2/7/7;
+    row-gap: 25px;
+    column-gap: 25px;
 }
 .your-projects{
     grid-area: 1/1/7/6;
+    padding: 5px;
+}
+.projects-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+.project-card{
+    border-radius: 5px;
+    border: 2px white;
+    border-left: 5px solid rgb(238, 173, 52);
+    box-shadow: 2px;
+    padding: 15px;
+    background-color: white;
 }
 .announcements{
     grid-area: 1/6/5/8;
