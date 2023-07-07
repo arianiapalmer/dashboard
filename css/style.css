@@ -1,3 +1,32 @@
 div{
     border: 2px solid black;
 }
+img{
+    width: 20px;
+    height: 20px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 150px 1fr 1fr 1fr 1fr 1fr;
+}
+.sidebar{
+    grid-area: 1/1/7/2;
+}
+.header{
+    grid-area: 1/2/2/7;
+}
+.cards-wrapper{
+    display: grid;
+    border: 2px solid blue;
+    grid-area: 2/2/7/7
+}
+.your-projects{
+    grid-area: 1/1/7/6;
+}
+.announcements{
+    grid-area: 1/6/5/8;
+}
+.trends-wrapper{
+    grid-area: 5/6/8/8;
+}
