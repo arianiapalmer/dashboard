@@ -22,6 +22,7 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: var(--head4);
     font-weight: 1000;
+    padding: 5px;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -69,13 +70,30 @@ img{
     border-radius: 5px;
     border: 2px white;
     border-left: 5px solid rgb(238, 173, 52);
-    box-shadow: 2px;
+    box-shadow:  1px 1px 2px 2px #88888875;
     padding: 15px;
     background-color: white;
+}
+div.project-icons{
+    padding: 5px;
+    float: left;
 }
 .announcements{
     grid-area: 1/6/5/8;
 }
+.announce-wrapper{
+    box-shadow:  1px 1px 2px 2px #88888875;
+    background-color: white;  
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.announce{
+    padding: 10px;
+}
 .trends-wrapper{
     grid-area: 5/6/8/8;
+    box-shadow:  1px 1px 2px 2px #88888875;
+    background-color: white;  
+    border: 1px solid white;
+    border-radius: 5px;
 }
