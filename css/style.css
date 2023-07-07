@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 :root{
     --head1: 2.5rem;
@@ -8,23 +8,23 @@
     --head4: 1rem
 }
 h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--head1);
 }h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--head2);
 }h3{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--head3);
     font-weight: 1000;
     padding-bottom: 10px;
 }h4{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: var(--head4);
     font-weight: 1000;
 }
 p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 div{
     /* border: 2px solid black; */
